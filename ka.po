@@ -105,11 +105,13 @@ msgid ""
 "A DM RAID device with the name %(name)s and devices %(devices)s has already "
 "been defined."
 msgstr ""
+"DM RAID მოწყობილობა სახელით %(name)s და მოწყობილობებით %(devices)s უკვე "
+"არსებობს."
 
 #: ../pykickstart/commands/fcoe.py:143
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "FCOE მოწყობილობა სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
@@ -132,16 +134,18 @@ msgid ""
 "A logical volume with the name %(logical_volume_name)s has already been "
 "defined in volume group %(volume_group)s."
 msgstr ""
+"ლოგიკური ტომი სახელით %(logical_volume_name)s უკვე აღწერილია ტომების ჯგუფში %"
+"(volume_group)s."
 
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "მოდული სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/network.py:478
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "ქსელური მოწყობილობა სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
@@ -157,17 +161,17 @@ msgstr "რეპო სახელით %s უკვე აღწერილ
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "ბრძანებას %s მხოლოდ ერთი არგუმენტი უნდა ჰქონდეს"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "მომხმარებელი სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/volgroup.py:180
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "ტომების ჯგუფი სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
@@ -176,7 +180,7 @@ msgstr "zfcp ამ ინფორმაციით უკვე აღწე�
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "ქმედება %(action)s ესაჭიროება --namespace პარამეტრის დაყენება"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
