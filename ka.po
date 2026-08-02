@@ -187,6 +187,7 @@ msgstr "ქმედება %(action)s ესაჭიროება --namesp
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
+"ქმედება %(action)s ესაჭიროება --namespace ან --blockdevs პარამეტრის დაყენება"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
