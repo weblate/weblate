@@ -303,7 +303,7 @@ msgstr "kickstart ფაილის დამუშავების შეც
 #: ../tools/ksflatten.py:60
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:109
 #, python-format
