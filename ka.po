@@ -860,7 +860,7 @@ msgstr ""
 #: ../pykickstart/parser.py:765
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr ""
+msgstr "Kickstart-ის უცნობი სექცია: %s"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
