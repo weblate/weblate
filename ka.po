@@ -944,7 +944,7 @@ msgstr ""
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr ""
+msgstr "არასწორი ლოგიკური მნიშვნელობა: %r"
 
 #: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
@@ -957,7 +957,7 @@ msgstr ""
 
 #: ../tools/ksvalidator.py:65
 msgid "show this help message and exit"
-msgstr ""
+msgstr "ამ დახმარების ჩვენება და გასვლა"
 
 #: ../tools/ksshell.py:154
 msgid ""
@@ -974,4 +974,4 @@ msgstr ""
 
 #: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "volgroup-ს დანაყოფების სია უნდა გადაეცეს"
