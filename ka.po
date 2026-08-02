@@ -204,7 +204,7 @@ msgstr "არსებული ლოგიკური ტომისთვ�
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "ქმედება %(action)s მოწყობილობებზე %(blockdevs)s უკვე აღწერილია."
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
@@ -244,7 +244,7 @@ msgstr "ქეშს ზომის მითითება სჭირდე
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr ""
+msgstr "--port -ის --host -ის გარეშე მითითება შეუძლებელია."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
@@ -253,13 +253,13 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "ცარიელი სტრიქონი აქტივაციის სწორი გასაღები არაა."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr ""
+msgstr "URL-სთან წვდომის შეცდომა: %s"
 
 #: ../pykickstart/load.py:109
 #, python-format
@@ -277,11 +277,13 @@ msgid ""
 "Error reading %(filename)s:\n"
 "%(version)s"
 msgstr ""
+"კითხვის შეცდომა: %(filename)s:\n"
+"%(version)s"
 
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr ""
+msgstr "URL-სთან უსაფრთხო წვდომის შეცდომა: %s"
 
 #: ../pykickstart/load.py:66
 #, python-format
@@ -291,12 +293,12 @@ msgstr ""
 #: ../tools/ksflatten.py:70
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "გამოტანის ფაილის გახსნის შეცდომა '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksflatten.py:60
 #, python-format
