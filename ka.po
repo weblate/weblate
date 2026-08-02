@@ -887,7 +887,7 @@ msgstr "უცნობი ბრძანება: %s"
 #: ../pykickstart/parser.py:755
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr "kickstart-ის უცნობი სექცია: %s"
+msgstr "Kickstart-ის უცნობი სექცია: %s"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
