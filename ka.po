@@ -597,11 +597,11 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "%s-სთვის საჭირო დანაყოფები"
 
 #: ../tools/ksflatten.py:36
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "ბილიკი kickstart-ის კონფიგურაციის ფაილამდე"
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
@@ -623,7 +623,7 @@ msgstr ""
 
 #: ../pykickstart/commands/snapshot.py:131
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "სწრაფი ასლის \"when\" პარამეტრის მითითება აუცილებელია!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
@@ -646,7 +646,7 @@ msgstr ""
 #: ../pykickstart/commands/snapshot.py:127
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "სწრაფი ასლი სახელით %s უკვე აღწერილია!"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
@@ -703,17 +703,17 @@ msgstr ""
 #: ../tools/ksverdiff.py:81
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr ""
+msgstr "%s-ში დამატებულია შემდეგი ბრძანებები:"
 
 #: ../tools/ksverdiff.py:78
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr ""
+msgstr "%s-ში მოძველებულად გამოცხადდა შემდეგი ბრძანებები:"
 
 #: ../tools/ksverdiff.py:75
 #, python-format
 msgid "The following commands were removed in %s:"
-msgstr ""
+msgstr "%s-ში მოცილდა შემდეგი ბრძანებები:"
 
 #: ../tools/ksverdiff.py:107
 #, python-format
@@ -807,7 +807,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:851
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "თხელი ტომები მიუწვდომელია"
 
 #: ../pykickstart/parser.py:97
 #, python-format
