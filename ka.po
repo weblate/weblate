@@ -431,7 +431,7 @@ msgstr "Kickstart -ის ბრძანებას %s ერთი არგ�
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "Kickstart -ის ბრძანებას %s ერთი არგუმენტი სჭირდება"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
@@ -443,15 +443,15 @@ msgstr "Kickstart ის ბრძანება eula --agreed პარამ�
 
 #: ../tools/ksflatten.py:38
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "კონფიგურაციის ინტერპრეტაციისთვის გამოყენებული Kickstart -ის ვერსია"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "უკვე არსებული RAID მოწყობილობისთვის წევრების მითითება შეუძლებელია"
 
 #: ../pykickstart/commands/volgroup.py:175
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "უკვე არსებული ტომების ჯგუფისთვის წევრების მითითება შეუძლებელია"
 
 #: ../pykickstart/commands/repo.py:342
 msgid "Method must be a url to be added to the repo list."
@@ -459,17 +459,19 @@ msgstr ""
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "აკლია რეალმის ბრძანების არგუმენტები"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "გასაბრტყელებელი კონფიგურაციის მითითება აუცილებელია"
 
 #: ../pykickstart/commands/logvol.py:762
 msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
+"ლოგიკური ტომის ზომა მითითებული არაა. გამოიყენეთ ერთ-ერთი პარამეტრებიდან --"
+"useexisting, --noformat, --size, --percent, ან --hibernation."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
