@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:38-0800\n"
-"PO-Revision-Date: 2026-05-07 04:59+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2026-08-02 09:29+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/ka/>\n"
 "Language: ka\n"
@@ -17,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
-msgstr ""
+msgstr "%(command)s ბრძანებას მხოლოდ ერთი არგუმენტი ესაჭიროება: %(argument)s"
 
 #: ../pykickstart/base.py:252
 #, python-format
