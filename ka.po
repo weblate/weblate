@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-16 09:30-0700\n"
 "PO-Revision-Date: 2026-08-02 09:29+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/ka/>\n"
 "Language: ka\n"
@@ -23,11 +22,11 @@ msgstr ""
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
-msgstr "%(command)s ბრძანებას მხოლოდ ერთი არგუმენტი ესაჭიროება: %(argument)s"
+msgstr "ბრძანებას %(command)s, მხოლოდ, ერთი არგუმენტი სჭრირდება: %(argument)s"
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions'-ს სჭირდება --reformat"
 
 #: ../pykickstart/commands/network.py:834
 #: ../pykickstart/commands/network.py:1060
@@ -38,11 +37,11 @@ msgstr "--bindto=%s მხარდაუჭერელია ამ ტიპ�
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive სჭირდება მხოლოდ ერთი არგუმენტი"
+msgstr "პარამეტრს --boot-drive, მხოლოდ, ერთი არგუმენტი სჭირდება"
 
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr "--chunksize და --metadatasize მხოლოდ თხელი პულებისთვისაა"
+msgstr "--chunksize და --metadatasize, მხოლოდ, თხელი პულებისთვისაა"
 
 #: ../pykickstart/sections.py:625
 msgid "--default and --nobase cannot be used together"
@@ -78,14 +77,15 @@ msgstr "--resize -ს --onpart -სთან ერთად თუ გამო
 #: ../pykickstart/commands/logvol.py:681
 msgid "--resize can only be used in conjunction with --useexisting"
 msgstr ""
+"პარამეტრს --resize, მხოლოდ, პარამეტრთან --useexisting ერთად თუ გამოიყენებთ"
 
 #: ../pykickstart/commands/logvol.py:684
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "ახალი ზომის მისათითებლად --resize -ს --size სჭირდება"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "--resize -ს --size სჭირდება, ახალი ზომისთვის"
+msgstr "--resize -ს ახალი ზომისთვის --size სჭირდება"
 
 #: ../pykickstart/commands/logvol.py:785
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -180,14 +180,15 @@ msgstr "zfcp ამ ინფორმაციით უკვე აღწე�
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "ქმედება %(action)s ესაჭიროება --namespace პარამეტრის დაყენება"
+msgstr "ქმედებას %(action)s სჭირდება --namespace პარამეტრის დაყენება"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
-"ქმედება %(action)s ესაჭიროება --namespace ან --blockdevs პარამეტრის დაყენება"
+"ქმედებას %(action)s ესაჭიროება --namespace, ან --blockdevs პარამეტრის "
+"დაყენება"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
@@ -195,11 +196,11 @@ msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
 msgstr ""
 "ქმედებას %(action)s რეჟიმში %(mode)s --sectorsize პარამეტრის დაყენება "
-"ესაჭიროება"
+"სჭირდება"
 
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr "არსებული ლოგიკური ტომისთვის ქეშის დამატება მხარდაუჭერელია"
+msgstr "არსებული ლოგიკური ტომისთვის კეშის დამატება მხარდაჭერილი არაა"
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
@@ -232,7 +233,7 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:929
 #: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "ფაილური სისტემა Btrfs მხარდაჭერილი არაა"
 
 #: ../pykickstart/commands/logvol.py:855
 msgid "Cache needs to have a list of (fast) PVs specified"
@@ -298,12 +299,12 @@ msgstr "გამოტანის ფაილის გახსნის შ
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
+msgstr "kickstart ფაილის '%(filename)s' დამუშავების შეცდომა : %(error_msg)s"
 
 #: ../tools/ksflatten.py:60
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "Kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
+msgstr "kickstart ფაილის '%(filename)s' წაკითხვის შეცდომა : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:109
 #, python-format
@@ -319,11 +320,11 @@ msgstr "შეცდომა შეყვანილ ფაილში:  %s"
 
 #: ../tools/ksvalidator.py:114
 msgid "General kickstart error in input file"
-msgstr "kickstart-ის შეცდომა შეყვანილ ფაილში"
+msgstr "kickstart-ის ზოგადი შეცდომა შეყვანილ ფაილში"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "--nodefaults და --optional -ს ერთდროულად ვერ მიუთითებთ"
+msgstr "ჯგუფი ერთდროულად ვერ მიუთითებს პარამეტრებს --nodefaults და --optional"
 
 #: ../pykickstart/commands/network.py:954
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
@@ -432,7 +433,7 @@ msgstr "Kickstart-ის ბრძანება %s არგუმენტე
 #: ../pykickstart/commands/updates.py:64
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr "Kickstart -ის ბრძანებას %s ერთი არგუმენტი სჭირდება"
+msgstr "Kickstart-ის ბრძანება %s , მხოლოდ ერთ არგუმენტს იღებს"
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
@@ -477,7 +478,7 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
-"ლოგიკური ტომის ზომა მითითებული არაა. გამოიყენეთ ერთ-ერთი პარამეტრებიდან --"
+"ლოგიკური ტომის ზომა მითითებული არაა. გამოიყენეთ ერთერთი პარამეტრებიდან --"
 "useexisting, --noformat, --size, --percent, ან --hibernation."
 
 #: ../pykickstart/commands/repo.py:280
@@ -605,7 +606,7 @@ msgstr "ბილიკი kickstart-ის კონფიგურაციი
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "პროცენტული მნიშვნელობა უნდა იყოს შუალედიდან 0-100."
 
 #. If we are ignoring unknown section errors, just create a new
 #. NullSection for the header we just saw.  Then nothing else
@@ -619,7 +620,7 @@ msgstr ""
 #: ../pykickstart/parser.py:618 ../pykickstart/parser.py:659
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr ""
+msgstr "განყოფილება %s არ სრულდება %%end-ით."
 
 #: ../pykickstart/commands/snapshot.py:131
 msgid "Snapshot \"when\" parameter must be specified!"
@@ -807,7 +808,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:851
 msgid "Thin volumes cannot be cached"
-msgstr "თხელი ტომები მიუწვდომელია"
+msgstr "თხელი ტომები ხელმისაწვდომი არაა"
 
 #: ../pykickstart/parser.py:97
 #, python-format
@@ -855,12 +856,12 @@ msgstr ""
 #: ../pykickstart/parser.py:754
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr "Kickstart-ის უცნობი სექცია: %s"
+msgstr "kickstart-ის უცნობი სექცია: %s"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "მხარდაუჭერელი realm-ის'%s' ბრძანება"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:132 ../pykickstart/version.py:141
@@ -868,7 +869,7 @@ msgstr ""
 #: ../pykickstart/version.py:212
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "მითითებული ვერსია მხარდაუჭერელია: %s"
+msgstr "მითითებულია მხარდაუჭერელი ვერსია : %s"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:173
@@ -914,7 +915,7 @@ msgstr "btrfs-ს დანაყოფების სია უნდა გ�
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr "btrfs -ს მისამაგრებელი წერტილი უნდა გადაეცეს"
+msgstr "btrfs-ს მიმაგრების წერტილი უნდა ჰქონდეს"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
@@ -922,7 +923,7 @@ msgstr ""
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "btrfs ქვეტომს სახელი სჭირდება"
+msgstr "btrfs-ის ქვეტომს სახელი სჭირდება"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
@@ -969,4 +970,4 @@ msgstr ""
 
 #: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a list of partitions"
-msgstr "volgroup-ს დანაყოფების სია უნდა გადაეცეს"
+msgstr "volgroup-სდანაყოფების სია უნდა გადაეცეს"
