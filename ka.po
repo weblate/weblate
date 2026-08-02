@@ -325,7 +325,7 @@ msgstr "kickstart-ის შეცდომა შეყვანილ ფა�
 
 #: ../pykickstart/parser.py:450
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr ""
+msgstr "--nodefaults და --optional -ს ერთდროულად ვერ მიუთითებთ"
 
 #: ../pykickstart/commands/network.py:942
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
