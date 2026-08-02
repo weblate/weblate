@@ -42,7 +42,7 @@ msgstr "--boot-drive სჭირდება მხოლოდ ერთი �
 
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "--chunksize და --metadatasize მხოლოდ თხელი პულებისთვისაა"
 
 #: ../pykickstart/sections.py:625
 msgid "--default and --nobase cannot be used together"
