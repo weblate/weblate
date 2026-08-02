@@ -51,7 +51,7 @@ msgstr "--chunksize და --metadatasize მხოლოდ თხელი პ
 
 #: ../pykickstart/sections.py:758
 msgid "--default and --nobase cannot be used together"
-msgstr ""
+msgstr "--default და --nobase ერთად ვერ გამოიყენება"
 
 #: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
@@ -60,20 +60,21 @@ msgstr "--default და --nocore ერთად ვერ გამოიყ�
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 #: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "--mkfsoptions და --fsprofile ერთად ვერ გამოიყენება."
 
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "--mkfsoptions -ს --noformat -სთან ერთად ვერ გამოიყენებთ."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr ""
+"--mkfsoptions -ს --noformat ან --useexisting -სთან ერთად ვერ გამოიყენებთ."
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "--resize -ს --onpart -სთან ერთად თუ გამოიყენებთ"
 
 #: ../pykickstart/commands/logvol.py:683
 msgid "--resize can only be used in conjunction with --useexisting"
@@ -85,7 +86,7 @@ msgstr ""
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "--resize -ს --size სჭირდება, ახალი ზომისთვის"
 
 #: ../pykickstart/commands/logvol.py:787
 msgid "--size and --percent cannot both be specified for the same logvol"
