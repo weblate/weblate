@@ -38,7 +38,7 @@ msgstr "--bindto=%s მხარდაუჭერელია ამ ტიპ�
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "--boot-drive სჭირდება მხოლოდ ერთი არგუმენტი"
 
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
