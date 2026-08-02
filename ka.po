@@ -873,7 +873,7 @@ msgstr ""
 #: ../pykickstart/version.py:214
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr ""
+msgstr "მითითებული ვერსია მხარდაუჭერელია: %s"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:179
