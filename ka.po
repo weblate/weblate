@@ -895,7 +895,7 @@ msgstr ""
 
 #: ../tools/ksverdiff.py:59
 msgid "You must specify two syntax versions."
-msgstr ""
+msgstr "საჭიროა სინტაქსის ორი ვერსიის მითითება."
 
 #: ../tools/ksshell.py:152
 msgid "a basis file to use for seeding the kickstart data (optional)"
@@ -919,7 +919,7 @@ msgstr "btrfs-ს დანაყოფების სია უნდა გ�
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "btrfs -ს მისამაგრებელი წერტილი უნდა გადაეცეს"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
