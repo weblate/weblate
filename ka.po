@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "არსებული ლოგიკური ტომისთვის ქეშის დამატება მხარდაუჭერელია"
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
