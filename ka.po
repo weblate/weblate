@@ -927,7 +927,7 @@ msgstr ""
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "btrfs ქვეტომს სახელი სჭირდება"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
