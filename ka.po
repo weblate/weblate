@@ -194,6 +194,8 @@ msgstr ""
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
 msgstr ""
+"ქმედებას %(action)s რეჟიმში %(mode)s --sectorsize პარამეტრის დაყენება "
+"ესაჭიროება"
 
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
