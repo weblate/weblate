@@ -378,12 +378,12 @@ msgstr "შიდა ბრძანება %s უცნობია."
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
 msgid "Invalid autopart type: %s"
-msgstr ""
+msgstr "ავტონაწილის არასწორი ტიპი: %s"
 
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
 msgid "Invalid btrfs level: %s"
-msgstr ""
+msgstr "Btrfs-ის არასწორი დონე: %s"
 
 #: ../pykickstart/commands/logvol.py:865
 #, python-format
@@ -420,12 +420,12 @@ msgstr ""
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Kickstart-ის ბრძანება %s არგუმენტებს არ იღებს"
 
 #: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "Kickstart -ის ბრძანებას %s ერთი არგუმენტი სჭირდება"
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
