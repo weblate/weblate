@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-20 08:52-0700\n"
+"POT-Creation-Date: 2026-08-03 09:43-0700\n"
 "PO-Revision-Date: 2025-04-09 01:53+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -71,6 +71,12 @@ msgstr "--default 及 --nobase 不得同時使用"
 msgid "--default and --nocore cannot be used together"
 msgstr "--default 及 --nocore 不得同時使用"
 
+#: ../pykickstart/commands/stratisfs.py:147
+#, fuzzy
+#| msgid "'--mkfsoptions' requires --reformat"
+msgid "--maxsize requires --grow"
+msgstr "'--mkfsoptions'需要--reformat"
+
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
@@ -84,6 +90,12 @@ msgstr "--mkfsoptions 與--noformat無效。"
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions 與--noformat或--useexisting無效。"
+
+#: ../pykickstart/commands/stratispool.py:147
+#, fuzzy
+#| msgid "--resize can only be used in conjunction with --onpart"
+msgid "--passphrase can only be used with --encrypted"
+msgstr "--resize只能與--onpart一起使用"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -173,6 +185,23 @@ msgstr "一個名為的回購 %s 已經定義了。"
 #, python-format
 msgid "A single argument is expected for the %s command"
 msgstr "預計會有一個參數 %s 命令"
+
+#: ../pykickstart/commands/stratisfs.py:151
+#, fuzzy, python-format
+#| msgid ""
+#| "A logical volume with the name %(logical_volume_name)s has already been "
+#| "defined in volume group %(volume_group)s."
+msgid ""
+"A stratisfs with the name %(stratisfs_name)s has already been defined in "
+"pool %(pool_name)s."
+msgstr ""
+"具有名稱的邏輯卷 %(logical_volume_name)s 已在卷組中定義 %(volume_group)s。"
+
+#: ../pykickstart/commands/stratispool.py:156
+#, fuzzy, python-format
+#| msgid "A repo with the name %s has already been defined."
+msgid "A stratispool with the name %s has already been defined."
+msgstr "一個名為的回購 %s 已經定義了。"
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -465,6 +494,12 @@ msgstr "用於解釋配置的Kickstart版本"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "不能為預先存在的RAID設備指定成員"
 
+#: ../pykickstart/commands/stratispool.py:144
+#, fuzzy
+#| msgid "Members may not be specified for preexisting volgroup"
+msgid "Members may not be specified for preexisting stratispool"
+msgstr "可能不會為預先存在的volgroup指定成員"
+
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "可能不會為預先存在的volgroup指定成員"
@@ -741,6 +776,11 @@ msgstr "下列命令在 %s 中已過時："
 msgid "The following commands were removed in %s:"
 msgstr "下列命令在 %s 中已移除："
 
+#: ../pykickstart/commands/autopart.py:715
+#, python-format
+msgid "The following options are not compatible with --type=stratis: %s"
+msgstr ""
+
 #: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
@@ -851,8 +891,9 @@ msgstr "無法開啟 kickstart 輸入檔案：%s"
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
-#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
-#: ../pykickstart/commands/updates.py:69
+#: ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/stratisfs.py:139
+#: ../pykickstart/commands/timezone.py:83 ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "意外的爭論 %(command)s 命令： %(options)s"
@@ -982,6 +1023,18 @@ msgstr "在 %%include 時解析包含文件 被看見了"
 #: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
 msgstr "顯示此協助訊息並退出"
+
+#: ../pykickstart/commands/stratispool.py:142
+#, fuzzy
+#| msgid "btrfs must be given a list of partitions"
+msgid "stratispool must be given a list of blockdevs"
+msgstr "必須為btrfs提供分區列表"
+
+#: ../pykickstart/commands/stratispool.py:139
+#, fuzzy
+#| msgid "volgroup must be given a VG name"
+msgid "stratispool must be given a pool name"
+msgstr "必須為volgroup指定一個VG名稱"
 
 #: ../tools/ksshell.py:155
 msgid ""

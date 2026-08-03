@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-20 08:52-0700\n"
+"POT-Creation-Date: 2026-08-03 09:43-0700\n"
 "PO-Revision-Date: 2026-05-26 10:01+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -76,6 +76,12 @@ msgstr "--default och --nobase kan inte användas tillsammans"
 msgid "--default and --nocore cannot be used together"
 msgstr "--default och --nocore kan inte användas tillsammans"
 
+#: ../pykickstart/commands/stratisfs.py:147
+#, fuzzy
+#| msgid "'--mkfsoptions' requires --reformat"
+msgid "--maxsize requires --grow"
+msgstr "”--mkfsoptions” kräver --reformat"
+
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
@@ -89,6 +95,12 @@ msgstr "--mkfsoptions med --noformat har ingen effekt."
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions med --noformat eller --useexisting har ingen effekt."
+
+#: ../pykickstart/commands/stratispool.py:147
+#, fuzzy
+#| msgid "--resize can only be used in conjunction with --onpart"
+msgid "--passphrase can only be used with --encrypted"
+msgstr "--resize kan endast användas tillsammans med --onpart"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -181,6 +193,24 @@ msgstr "Ett förråd med namnet %s har redan definierats."
 #, python-format
 msgid "A single argument is expected for the %s command"
 msgstr "Ett ensamt argument förväntas för kommandot %s"
+
+#: ../pykickstart/commands/stratisfs.py:151
+#, fuzzy, python-format
+#| msgid ""
+#| "A logical volume with the name %(logical_volume_name)s has already been "
+#| "defined in volume group %(volume_group)s."
+msgid ""
+"A stratisfs with the name %(stratisfs_name)s has already been defined in "
+"pool %(pool_name)s."
+msgstr ""
+"En logisk volym med namnet %(logical_volume_name)s har redan definierats i "
+"volymgruppen %(volume_group)s."
+
+#: ../pykickstart/commands/stratispool.py:156
+#, fuzzy, python-format
+#| msgid "A repo with the name %s has already been defined."
+msgid "A stratispool with the name %s has already been defined."
+msgstr "Ett förråd med namnet %s har redan definierats."
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -489,6 +519,12 @@ msgstr "Kickstart-version som skall användas för att tolka konfigurationen"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "Medlemmar kan inte anges för en befintlig RAID-enhet"
 
+#: ../pykickstart/commands/stratispool.py:144
+#, fuzzy
+#| msgid "Members may not be specified for preexisting volgroup"
+msgid "Members may not be specified for preexisting stratispool"
+msgstr "Medlemmar får inte anges för befintliga volymgrupper"
+
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "Medlemmar får inte anges för befintliga volymgrupper"
@@ -779,6 +815,11 @@ msgstr "Följande kommandon undanbedes i %s:"
 msgid "The following commands were removed in %s:"
 msgstr "Följande kommandon togs bort i %s:"
 
+#: ../pykickstart/commands/autopart.py:715
+#, python-format
+msgid "The following options are not compatible with --type=stratis: %s"
+msgstr ""
+
 #: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
@@ -893,8 +934,9 @@ msgstr "Kan inte öppna indata-kickstart-filen: %s"
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
-#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
-#: ../pykickstart/commands/updates.py:69
+#: ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/stratisfs.py:139
+#: ../pykickstart/commands/timezone.py:83 ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "Oväntade argument till kommandot %(command)s: %(options)s"
@@ -1029,6 +1071,18 @@ msgstr "tolka inkluderingsfiler när %%include ses"
 #: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
 msgstr "visa denna hjälp och avsluta"
+
+#: ../pykickstart/commands/stratispool.py:142
+#, fuzzy
+#| msgid "btrfs must be given a list of partitions"
+msgid "stratispool must be given a list of blockdevs"
+msgstr "btrfs måste få en lista av partitioner"
+
+#: ../pykickstart/commands/stratispool.py:139
+#, fuzzy
+#| msgid "volgroup must be given a VG name"
+msgid "stratispool must be given a pool name"
+msgstr "volgroup måste ges ett VG-namn"
 
 #: ../tools/ksshell.py:155
 msgid ""
