@@ -18,15 +18,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2018-11-20 10:57+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/pykickstart/language/ru/)\n"
+"PO-Revision-Date: 2026-08-04 23:28+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel8-branch/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.8\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -109,8 +111,8 @@ msgstr "Неизвестный раздел в заготовке: %s"
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
-"В строке %(lineno)s обнаружена потенциально неизвестная секция: "
-"%(sectionName)s"
+"Потенциально неизвестный раздел обнаружен в строке %(lineno)s: %(sectionName)"
+"s"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:132 ../pykickstart/version.py:141
@@ -132,12 +134,12 @@ msgid ""
 " kickstart syntax version %(version)s."
 msgstr ""
 "Параметр %(option)s добавлен в версии %(intro)s, а используется синтаксис "
-"заготовки версии %(version)s"
+"заготовки kickstart версии %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
 msgid "The %(option)s option is no longer supported."
-msgstr "Параметр %(option)s больше не поддерживается"
+msgstr "Параметр %(option)s больше не поддерживается."
 
 #: ../pykickstart/options.py:187
 #, python-format
@@ -146,7 +148,7 @@ msgid ""
 "kickstart syntax version %(version)s."
 msgstr ""
 "Параметр %(option)s удалён в версии %(removed)s, а используется синтаксис "
-"заготовки версии %(version)s"
+"заготовки kickstart версии %(version)s."
 
 #: ../pykickstart/options.py:190
 #, python-format
@@ -202,26 +204,25 @@ msgstr "Ошибка при чтении строки %s файла кикста
 #: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr "Неожиданные аргументы в команде %(command)s: %(options)s"
+msgstr "Неожиданные аргументы команды %(command)s: %(options)s"
 
 #: ../pykickstart/commands/harddrive.py:88
 msgid "One of biospart or partition options must be specified."
-msgstr "Необходимо указать параметр biospart или partition"
+msgstr "Необходимо указать один из параметров biospart или partition."
 
 #: ../pykickstart/commands/ignoredisk.py:90
 #: ../pykickstart/commands/ignoredisk.py:175
 msgid ""
 "One of --drives or --only-use must be specified for ignoredisk command."
-msgstr ""
-"В команде ignoredisk необходимо указать аргумент --drives или --only-use."
+msgstr "Для команды ignoredisk необходимо указать --drives или --only-use."
 
 #: ../pykickstart/commands/ignoredisk.py:133
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
-"В команде ignoredisk необходимо указать один из трех аргументов:  --drives ,"
-" --only-use или --interactive."
+"Для команды ignoredisk необходимо указать --drives, --only-use или --"
+"interactive."
 
 #: ../pykickstart/commands/ignoredisk.py:165
 #, python-format
@@ -239,19 +240,19 @@ msgstr ""
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr "Пользователь SSH с именем %s уже определен."
+msgstr "Пользователь SSH с именем %s уже определён."
 
 #: ../pykickstart/commands/volgroup.py:167
 msgid "volgroup must be given a VG name"
-msgstr "Команде volgroup необходимо передать имя группы томов"
+msgstr "Для volgroup необходимо указать имя VG"
 
 #: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a list of partitions"
-msgstr "Команде vogroup необходимо передать список разделов"
+msgstr "Для volgroup необходимо указать список разделов"
 
 #: ../pykickstart/commands/volgroup.py:172
 msgid "Members may not be specified for preexisting volgroup"
-msgstr "Для существующей группы томов не может быть указан список элементов."
+msgstr "Для существующей группы томов участники не могут быть указаны"
 
 #: ../pykickstart/commands/volgroup.py:180
 #, python-format
@@ -260,11 +261,11 @@ msgstr "Группа томов с именем %s уже определена."
 
 #: ../pykickstart/commands/volgroup.py:219
 msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr "Команды «volgroup» и «autopart» не могут использоваться одновременно"
+msgstr "Команды volgroup и autopart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/volgroup.py:223
 msgid "The volgroup and mount commands can't be used at the same time"
-msgstr "Команды «volgroup» и «mount» не могут использоваться одновременно"
+msgstr "Команды volgroup и mount нельзя использовать одновременно"
 
 #: ../pykickstart/commands/timezone.py:170
 #: ../pykickstart/commands/timezone.py:186
@@ -278,13 +279,13 @@ msgstr "Параметры --nontp и --ntpservers являются взаимо
 #, python-format
 msgid ""
 "At least one option and/or an argument are expected for the  %s command"
-msgstr "Команде %s следует передать хотя бы один параметр и/или аргумент"
+msgstr "Для команды %s ожидается хотя бы один параметр и/или аргумент"
 
 #: ../pykickstart/commands/timezone.py:279
 #: ../pykickstart/commands/timezone.py:354
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr "Команде %s требуется один или ноль аргументов"
+msgstr "Для команды %s ожидается один или ноль аргументов"
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
@@ -296,11 +297,11 @@ msgstr "Команда %(command)s не принимает пустой пара
 #: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr "Команда %s не принимает аргументов"
+msgstr "Команда Kickstart %s не принимает аргументов"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr "В команде «eula» необходимо указать аргумент «--agreed»"
+msgstr "Команда Kickstart eula ожидает параметр --agreed"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -309,7 +310,7 @@ msgstr "В команде «eula» необходимо указать аргу�
 #: ../pykickstart/commands/autopart.py:479
 #, python-format
 msgid "The %s and autopart commands can't be used at the same time"
-msgstr "Команды «%s» и «autopart» не могут использоваться одновременно"
+msgstr "Команды %s и autopart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
@@ -318,14 +319,11 @@ msgstr "Неверный тип «autopart»: %s"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr ""
-"Недопустимый параметр в строке команды «autopart--fstype=btrfs», вместо "
-"этого используйте «--type=btrfs»"
+msgstr "autopart --fstype=btrfs недопустим, используйте --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
-"«autopart --fstype» не может использоваться совместно с «--type=btrfs»"
+msgstr "autopart --fstype нельзя использовать с --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
 #: ../pykickstart/commands/logvol.py:917
@@ -341,16 +339,16 @@ msgstr "«autopart --type=btrfs» не поддерживается"
 #: ../pykickstart/commands/mount.py:167
 #, python-format
 msgid "The '%s' and 'mount' commands can't be used at the same time"
-msgstr "Команды «%s» и «mount» не могут использоваться одновременно"
+msgstr "Команды '%s' и 'mount' нельзя использовать одновременно"
 
 #: ../pykickstart/commands/mount.py:184
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr "Дана неверная точка монтирования «%s»"
+msgstr "Указана недопустимая точка монтирования '%s'"
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr "«--mkfsoptions» требует --reformat"
+msgstr "Для '--mkfsoptions' требуется --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
@@ -363,10 +361,9 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"Игнорируется устаревший параметр в строке %s: команда zerombr больше не "
-"принимает параметров. В будущих выпусках попытка передать параметры этой "
-"команде будет вызывать критическую ошибку. Удалите лишние параметры из файла"
-" кикстарта."
+"Игнорирование устаревшего параметра в строке %s: команда zerombr больше не "
+"принимает параметров. В будущих выпусках это приведёт к фатальной ошибке "
+"kickstart. Измените ваш файл kickstart, удалив все параметры."
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
@@ -376,11 +373,11 @@ msgstr "--boot-drive принимает только один аргумент"
 #: ../pykickstart/commands/user.py:202
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr "Пользователь с именем %s уже определен."
+msgstr "Пользователь с именем %s уже определён."
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
-msgstr "Необходимо указать одно из двух: «--disabled» или «--enabled»"
+msgstr "Необходимо указать --disabled или --enabled."
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -408,25 +405,25 @@ msgstr "Неожиданные аргументы команды nvdimm: %(argum
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"Можно использовать только одну из спецификаций устройства -namespace и "
-"-blockdevs"
+"Можно использовать только один из способов указания устройств: --namespace "
+"или --blockdevs"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr "Действие %(action)s в пространстве имен %(namespace)s уже определена."
+msgstr "Действие %(action)s для пространства имён %(namespace)s уже определено."
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
 msgid ""
 "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr "Действие %(action)s на устройствах %(blockdevs)s уже определена."
+msgstr "Действие %(action)s для устройств %(blockdevs)s уже определено."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "действие %(action)s требуется задать аргумент --namespace"
+msgstr "Для действия %(action)s требуется установить аргумент --namespace"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
@@ -434,86 +431,87 @@ msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
 msgstr ""
-"действие %(action)s с режимом %(mode)s требует, чтобы был задан аргумент "
-"-sectorsize"
+"Для действия %(action)s в режиме %(mode)s требуется установить аргумент --"
+"sectorsize"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
-"действие %(action)s требуется задать параметр -namespace или -blockdevs"
+"Для действия %(action)s требуется установить аргумент --namespace или --"
+"blockdevs"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
-"В команде rescue аргументы --nomount и --romount являются "
-"взаимоисключающими."
+"Для команды rescue можно указать только один из параметров --nomount или --"
+"romount."
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
 #: ../pykickstart/commands/key.py:61
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr "Команде %s необходимо передать один аргумент"
+msgstr "Команда Kickstart %s требует один аргумент"
 
 #: ../pykickstart/commands/keyboard.py:163
 #: ../pykickstart/commands/rootpw.py:85 ../pykickstart/commands/rootpw.py:142
 #: ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Команде %s следует передать один аргумент"
+msgstr "Для команды %s ожидается один аргумент"
 
 #: ../pykickstart/commands/keyboard.py:169
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
-"В команде keyboard параметры --xlayouts и --vckeymap являются "
-"взаимоисключающими"
+"Для команды keyboard ожидается один из параметров --xlayouts, --vckeymap со "
+"значениями или аргумент"
 
 #: ../pykickstart/commands/driverdisk.py:129
 #: ../pykickstart/commands/driverdisk.py:170
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "В команде driverdisk может быть указан только один раздел."
+msgstr "Для команды driverdisk можно указать только один раздел."
 
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"В команде driverdisk может быть указан либо раздел, либо параметр --source."
+"Для команды driverdisk можно указать только один из параметров: --source или "
+"раздел."
 
 #: ../pykickstart/commands/driverdisk.py:138
 msgid "One of --source or partition must be specified for driverdisk command."
-msgstr "В команде driverdisk необходимо указать раздел или параметр --source."
+msgstr "Для команды driverdisk необходимо указать --source или раздел."
 
 #: ../pykickstart/commands/driverdisk.py:178
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk "
 "command."
 msgstr ""
-"В команде driverdisk может быть указан либо раздел, либо параметр "
-"--biospart."
+"Для команды driverdisk можно указать только один из параметров: --biospart "
+"или раздел."
 
 #: ../pykickstart/commands/driverdisk.py:180
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
-"Аргументы --biospart и --source команды driverdisk являются "
-"взаимоисключающими."
+"Для команды driverdisk можно указать только один из параметров: --biospart "
+"или --source."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
-"В команде driverdisk необходимо указать либо путь разделу, либо параметр "
-"--source, либо --biospart."
+"Для команды driverdisk необходимо указать --source, --biospart или раздел."
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
-msgstr "zfcp с такими характеристиками уже определен."
+msgstr "Устройство zfcp с такой информацией уже определено."
 
 #: ../pykickstart/commands/url.py:194
 #, python-format
@@ -539,12 +537,11 @@ msgstr "Неверный уровень RAID: %s"
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr "Необходимо определить разделы для %s"
+msgstr "Для %s требуются разделы"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
-"Для существующего устройства RAID не может быть указан список элементов."
+msgstr "Для существующего устройства RAID участники не могут быть указаны"
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
@@ -553,23 +550,23 @@ msgstr "Устройство RAID с именем %s уже определено
 
 #: ../pykickstart/commands/raid.py:640 ../pykickstart/commands/raid.py:694
 msgid "The raid and autopart commands can't be used at the same time"
-msgstr "Команды raid и autopart не могут использоваться одновременно"
+msgstr "Команды raid и autopart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/raid.py:698
 msgid "The raid and mount commands can't be used at the same time"
-msgstr "Команды «raid» и «mount» не могут использоваться одновременно"
+msgstr "Команды raid и mount нельзя использовать одновременно"
 
 #: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:810
 #: ../pykickstart/commands/logvol.py:867
 #: ../pykickstart/commands/partition.py:682
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr "Использование --mkfsoptions совместно с --noformat не имеет смысла."
+msgstr "--mkfsoptions с --noformat не даёт эффекта."
 
 #: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:813
 #: ../pykickstart/commands/logvol.py:870
 #: ../pykickstart/commands/partition.py:685
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr "Использование --mkfsoptions совместно с --fsprofile не имеет смысла."
+msgstr "--mkfsoptions и --fsprofile нельзя использовать вместе."
 
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:929
 #: ../pykickstart/commands/partition.py:749
@@ -578,7 +575,7 @@ msgstr "Файловая система btrfs не поддерживается"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
-msgstr "Команда device принимает два аргумента — тип модуля и его имя."
+msgstr "Команда device требует два аргумента: тип модуля и имя"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -588,7 +585,7 @@ msgstr "Команда %(command)s принимает всего один арг
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr "Модуль с именем %s уже определен."
+msgstr "Модуль с именем %s уже определён."
 
 #: ../pykickstart/commands/logvol.py:480
 #, python-format
@@ -601,34 +598,31 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:623 ../pykickstart/commands/logvol.py:752
 msgid "The logvol and autopart commands can't be used at the same time"
-msgstr "Команды logvol и autopart не могут использоваться одновременно"
+msgstr "Команды logvol и autopart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/logvol.py:627 ../pykickstart/commands/logvol.py:737
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr ""
-"--thin и --thinpool не могут использоваться одновременно в команде logvol"
+msgstr "--thin и --thinpool нельзя указывать одновременно для одного logvol"
 
 #: ../pykickstart/commands/logvol.py:632 ../pykickstart/commands/logvol.py:741
 msgid "--thin requires --poolname to specify pool name"
-msgstr "Вместе с --thin необходимо определить --poolname"
+msgstr "Для --thin требуется --poolname, чтобы указать имя пула"
 
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
-"Параметры --chunksize и --metadatasize должны использоваться совместно с "
-"--thinpool"
+msgstr "--chunksize и --metadatasize предназначены только для тонких пулов"
 
 #: ../pykickstart/commands/logvol.py:681
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "Параметр --resize должен использоваться совместно с --useexisting"
+msgstr "--resize можно использовать только вместе с --useexisting"
 
 #: ../pykickstart/commands/logvol.py:684
 msgid "--resize requires --size to indicate new size"
-msgstr "Вместе с параметром --resize необходимо указать --size"
+msgstr "Для --resize требуется --size, чтобы указать новый размер"
 
 #: ../pykickstart/commands/logvol.py:756
 msgid "The logvol and mount commands can't be used at the same time"
-msgstr "Команды «logvol» и «mount» не могут использоваться одновременно"
+msgstr "Команды logvol и mount нельзя использовать одновременно"
 
 #: ../pykickstart/commands/logvol.py:760
 msgid ""
@@ -640,13 +634,11 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
-msgstr "Процентная величина должна быть в диапазоне от 0 до 100."
+msgstr "Процент должен быть от 0 до 100."
 
 #: ../pykickstart/commands/logvol.py:785
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
-"В команде logvol параметры --size и --percent не могут использоваться "
-"одновременно"
+msgstr "--size и --percent нельзя указывать одновременно для одного logvol"
 
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
@@ -654,22 +646,20 @@ msgstr "Добавление кэша к существующему логиче
 
 #: ../pykickstart/commands/logvol.py:851
 msgid "Thin volumes cannot be cached"
-msgstr "Тома с тонкой подготовкой не могут кэшироваться"
+msgstr "Тонкие тома не могут быть кэшированы"
 
 #: ../pykickstart/commands/logvol.py:855
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
-"Необходимо определить список высокопроизводительных физических томов для "
-"кэша"
+msgstr "Для кэша необходимо указать список (быстрых) PV"
 
 #: ../pykickstart/commands/logvol.py:859
 msgid "Cache needs to have size specified"
-msgstr "Необходимо определить размер кэша"
+msgstr "Для кэша необходимо указать размер"
 
 #: ../pykickstart/commands/logvol.py:863
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr "Недопустимый режим кэширования: %s"
+msgstr "Указан недопустимый режим кэша: %s"
 
 #: ../pykickstart/commands/fcoe.py:143
 #, python-format
@@ -679,11 +669,11 @@ msgstr "Устройство FCOE с именем %s уже определено
 #: ../pykickstart/commands/reqpart.py:78
 #, python-format
 msgid "The %s and reqpart commands can't be used at the same time"
-msgstr "Команды %s и reqpart не могут использоваться одновременно"
+msgstr "Команды %s и reqpart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/reqpart.py:83
 msgid "The mount and reqpart commands can't be used at the same time"
-msgstr "Команды mount и reqpart не могут использоваться одновременно"
+msgstr "Команды mount и reqpart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
@@ -692,43 +682,40 @@ msgstr "Команда enable module не принимает аргументы 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr "Раздел в %s уже определен."
+msgstr "Раздел с точкой монтирования %s уже определён."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
 msgid ""
 "The part/partition and autopart commands can't be used at the same time"
-msgstr ""
-"Команды part, partition и autopart не могут использоваться одновременно"
+msgstr "Команды part/partition и autopart нельзя использовать одновременно"
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "Параметр --resize должен использоваться совместно с --onpart"
+msgstr "--resize можно использовать только вместе с --onpart"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "Вместе с параметром --resize необходимо указать --size"
+msgstr "Для --resize требуется --size, чтобы указать новый размер"
 
 #: ../pykickstart/commands/partition.py:649
 msgid "The part/partition and mount commands can't be used at the same time"
-msgstr ""
-"Команды «part/partition» и «mount» не могут использоваться одновременно"
+msgstr "Команды part/partition и mount нельзя использовать одновременно"
 
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
-"--fstype=tmpfs не может использоваться одновременно с параметром --grow или "
-"--maxsize"
+"Параметр --fstype=tmpfs нельзя использовать вместе с --grow или --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr "Вместе с параметром --port необходимо указать --host."
+msgstr "Нельзя указать --port без --host."
 
 #: ../pykickstart/commands/updates.py:64
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr "Команда %s принимает только один аргумент"
+msgstr "Команда Kickstart %s принимает только один аргумент"
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
@@ -743,15 +730,14 @@ msgstr "Сетевое устройство с именем %s уже опред
 #: ../pykickstart/commands/network.py:746
 #: ../pykickstart/commands/network.py:1049
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "Вместе с параметром --bridgeopts необходимо определить --bridgeslaves"
+msgstr "Для параметра --bridgeopts требуется указать --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:752
 #: ../pykickstart/commands/network.py:1055
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
-"Неверный формат параметра --bridgeopts: должен содержать пары "
-"«ключ=значение», разделенные запятыми"
+"Неверный формат --bridgeopts, ожидаются параметры key=value, разделённые ','"
 
 #: ../pykickstart/commands/network.py:834
 #: ../pykickstart/commands/network.py:1060
@@ -764,22 +750,22 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
 msgstr ""
-"Если имя интерфейса представлено в формате <prefix>.<vlan id>, то <prefix> "
-"не должен содержать «vlan»."
+"При использовании нотации имени интерфейса <префикс>.<id vlan>, <префикс> не "
+"может быть равен 'vlan'."
 
 #: ../pykickstart/commands/network.py:954
 msgid ""
 "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
-"Если network --interfacename содержит точку, следом необходимо определить "
-"vlanid."
+"Если network --interfacename содержит '.', за ним должен следовать "
+"допустимый идентификатор vlan."
 
 #: ../pykickstart/commands/network.py:963
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
-"Если network --interfacename начинается с «vlan», следом необходимо "
-"определить vlanid."
+"Если network --interfacename начинается с 'vlan', за ним должен следовать "
+"допустимый идентификатор vlan."
 
 #: ../pykickstart/commands/network.py:968
 #, python-format
@@ -790,8 +776,7 @@ msgstr ""
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
-msgstr ""
-"«%(device)s» уже используется в многоканальном устройстве «%(multipathdev)s»"
+msgstr "Устройство '%(device)s' уже используется в multipath '%(multipathdev)s'"
 
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
@@ -800,33 +785,32 @@ msgstr "Неверный уровень btrfs: %s"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr "Команде btrfs необходимо передать точку монтирования"
+msgstr "Для btrfs необходимо указать точку монтирования"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr "Команде btrfs необходимо передать список разделов"
+msgstr "Для btrfs необходимо указать список разделов"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "btrfs --subvol требует определить родительский том"
+msgstr "Для подтома btrfs требуется указание родительского тома"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "btrfs --subvol требует указания имени"
+msgstr "Для подтома btrfs требуется имя"
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr "Том Btrfs в %s уже определен."
+msgstr "Том btrfs с точкой монтирования %s уже определён."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr ""
-"Использование --mkfsoptions совместно с --useexisting не имеет смысла."
+msgstr "--mkfsoptions с --noformat или --useexisting не даёт эффекта."
 
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
-msgstr "Команда realm «join» должна быть указана только один раз"
+msgstr "Команда realm 'join' должна быть указана только один раз"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
@@ -835,16 +819,16 @@ msgstr "Отсутствуют аргументы команды realm"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Неподдерживаемая команда realm: «%s» "
+msgstr "Неподдерживаемая команда realm '%s'"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr "Недопустимые аргументы команды realm: %s"
+msgstr "Недопустимые аргументы realm: %s"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
-msgstr "Необходимо указать только одну область для подключения"
+msgstr "Укажите только одну область (realm) для присоединения"
 
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
@@ -853,30 +837,30 @@ msgstr "Неверный параметр снимка when: %s"
 
 #: ../pykickstart/commands/snapshot.py:114
 msgid "Snapshot origin must be specified!"
-msgstr "Должен быть указан источник снимка!"
+msgstr "Необходимо указать исходный том для снимка!"
 
 #: ../pykickstart/commands/snapshot.py:117
 msgid "Snapshot origin can be specified only once!"
-msgstr "Источник снимка может быть указан только один раз!"
+msgstr "Исходный том для снимка можно указать только один раз!"
 
 #: ../pykickstart/commands/snapshot.py:127
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr "Снимок с именем %s уже определен!"
+msgstr "Снимок с именем %s уже определён!"
 
 #: ../pykickstart/commands/snapshot.py:131
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr "Должен быть указан параметр снимка «when»!"
+msgstr "Необходимо указать параметр снимка \"when\"!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr "Источник снимка %s должен быть указан VG/LV!"
+msgstr "Исходный том снимка %s должен быть указан как VG/LV!"
 
 #: ../pykickstart/commands/snapshot.py:141
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr "Параметр снимка when должен иметь одно из этих значений %s!"
+msgstr "Параметр снимка when должен иметь одно из следующих значений: %s!"
 
 #: ../pykickstart/commands/repo.py:280
 #, python-format
@@ -895,11 +879,11 @@ msgstr ""
 #: ../pykickstart/commands/repo.py:291
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr "Репозиторий с именем %s уже определен."
+msgstr "Репозиторий с именем %s уже определён."
 
 #: ../pykickstart/commands/repo.py:337
 msgid "Method must be a url to be added to the repo list."
-msgstr "Метод должен содержать URL для добавления в список репозиториев."
+msgstr "Метод должен быть URL-адресом для добавления в список репозиториев."
 
 #: ../tools/ksverdiff.py:45 ../tools/ksvalidator.py:60
 msgid "list the available versions of kickstart syntax"
@@ -990,7 +974,7 @@ msgstr "Не удалось открыть файл «%(filename)s»: %(error_ms
 
 #: ../tools/ksvalidator.py:52
 msgid "filename or URL to read from"
-msgstr "файл или URL "
+msgstr "имя файла или URL-адрес для чтения"
 
 #: ../tools/ksvalidator.py:54
 msgid "halt after the first error or warning"
