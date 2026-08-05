@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2026-08-04 23:28+0000\n"
+"PO-Revision-Date: 2026-08-06 01:10+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/ru/>\n"
@@ -232,10 +232,14 @@ msgid ""
 "fatal error from kickstart. Please modify your kickstart file to remove the "
 "option."
 msgstr ""
+"Игнорирование устаревшего параметра в строке %s: команда ignoredisk больше "
+"не поддерживает параметр --interactive. В будущих выпусках это приведёт к "
+"фатальной ошибке kickstart. Измените ваш файл kickstart, удалив этот "
+"параметр."
 
 #: ../pykickstart/commands/ignoredisk.py:172
 msgid "--interactive option of ignoredisk command is no longer supported."
-msgstr ""
+msgstr "Параметр --interactive команды ignoredisk больше не поддерживается."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -329,7 +333,9 @@ msgstr "autopart --fstype нельзя использовать с --type=btrfs"
 #: ../pykickstart/commands/logvol.py:917
 #: ../pykickstart/commands/partition.py:737
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
-msgstr "Можно указать только одну из -pbkdf-time и -pbkdf-итераций."
+msgstr ""
+"Может быть указан только один из параметров --pbkdf-time и --pbkdf-"
+"iterations."
 
 #: ../pykickstart/commands/autopart.py:630
 msgid "autopart --type=btrfs is not supported"
@@ -527,7 +533,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Пустая строка не является допустимым ключом активации."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -629,8 +635,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, "
 "--size, --percent, or --hibernation."
 msgstr ""
-"Не указан размер логического тома. Используйте один из параметров: "
-"--useexisting, --noformat,  --size,  --percent или --hibernation."
+"Не указан размер логического тома. Используйте один из параметров: --"
+"useexisting, --noformat, --size, --percent или --hibernation."
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
@@ -677,7 +683,7 @@ msgstr "Команды mount и reqpart нельзя использовать о
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
-msgstr "Команда enable module не принимает аргументы позиции!"
+msgstr "Команда enable module не принимает позиционные аргументы!"
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
