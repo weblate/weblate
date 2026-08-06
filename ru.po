@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 09:43-0700\n"
-"PO-Revision-Date: 2026-08-04 23:28+0000\n"
+"PO-Revision-Date: 2026-08-06 01:10+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ru/>\n"
@@ -36,6 +36,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Проверка файла kickstart %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -45,7 +47,7 @@ msgstr "Команда %(command)s принимает всего один арг
 #: ../pykickstart/base.py:254
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s был удалён."
 
 #: ../pykickstart/commands/mount.py:163
 msgid "'--mkfsoptions' requires --reformat"
@@ -75,10 +77,8 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default и --nocore не могут использоваться вместе"
 
 #: ../pykickstart/commands/stratisfs.py:147
-#, fuzzy
-#| msgid "'--mkfsoptions' requires --reformat"
 msgid "--maxsize requires --grow"
-msgstr "«--mkfsoptions» требует --reformat"
+msgstr "--maxsize требует --grow"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
@@ -95,10 +95,8 @@ msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions с --noformat или --useexisting не даёт эффекта."
 
 #: ../pykickstart/commands/stratispool.py:147
-#, fuzzy
-#| msgid "--resize can only be used in conjunction with --onpart"
 msgid "--passphrase can only be used with --encrypted"
-msgstr "Параметр --resize должен использоваться совместно с --onpart"
+msgstr "--passphrase можно использовать только с --encrypted"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -191,22 +189,18 @@ msgid "A single argument is expected for the %s command"
 msgstr "Для команды %s ожидается один аргумент"
 
 #: ../pykickstart/commands/stratisfs.py:151
-#, fuzzy, python-format
-#| msgid ""
-#| "A logical volume with the name %(logical_volume_name)s has already been "
-#| "defined in volume group %(volume_group)s."
+#, python-format
 msgid ""
 "A stratisfs with the name %(stratisfs_name)s has already been defined in "
 "pool %(pool_name)s."
 msgstr ""
-"Логический том %(logical_volume_name)s уже определен в группе томов "
-"%(volume_group)s."
+"Файловая система Stratis с именем %(stratisfs_name)s уже определена в пуле %"
+"(pool_name)s."
 
 #: ../pykickstart/commands/stratispool.py:156
-#, fuzzy, python-format
-#| msgid "A repo with the name %s has already been defined."
+#, python-format
 msgid "A stratispool with the name %s has already been defined."
-msgstr "Репозиторий с именем %s уже определен."
+msgstr "Пул Stratis с именем %s уже определён."
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -266,11 +260,9 @@ msgstr "Пользователь SSH с именем %s уже определё�
 #: ../pykickstart/commands/timezone.py:268
 #: ../pykickstart/commands/timezone.py:373
 #: ../pykickstart/commands/timezone.py:509
-#, fuzzy, python-format
-#| msgid ""
-#| "At least one option and/or an argument are expected for the  %s command"
+#, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr "Команде %s следует передать хотя бы один параметр и/или аргумент"
+msgstr "Для команды %s ожидается хотя бы один параметр и/или аргумент"
 
 #: ../pykickstart/commands/network.py:766
 #: ../pykickstart/commands/network.py:1116
@@ -305,7 +297,7 @@ msgstr "Устройство '%(device)s' уже используется в mul
 
 #: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Пустая строка не является допустимым ключом активации."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:80 ../pykickstart/load.py:83
@@ -406,21 +398,17 @@ msgstr ""
 "заготовки."
 
 #: ../pykickstart/options.py:202
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Игнорируется устаревший параметр в строке %(lineno)s:  параметр %(option)s "
-"устарел и больше не используется.  Он может быть удалён в будущих выпусках, "
-"что приведёт к критическим ошибкам. Удалите этот параметр из файла заготовки."
+"Игнорируется устаревший параметр в строке %(lineno)s: параметр %(option)s "
+"устарел и больше не используется. Он может быть удалён в будущих выпусках, "
+"что приведёт к критической ошибке kickstart. Измените ваш файл kickstart, "
+"чтобы удалить этот параметр."
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -464,10 +452,9 @@ msgid "Invalid mount point '%s' given"
 msgstr "Указана недопустимая точка монтирования '%s'"
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Недопустимые аргументы команды realm: %s"
+msgstr "Недопустимый параметр для аргумента --when=: %s"
 
 #: ../pykickstart/commands/raid.py:347
 #, python-format
@@ -519,10 +506,8 @@ msgid "Members may not be specified for preexisting RAID device"
 msgstr "Для существующего устройства RAID участники не могут быть указаны"
 
 #: ../pykickstart/commands/stratispool.py:144
-#, fuzzy
-#| msgid "Members may not be specified for preexisting volgroup"
 msgid "Members may not be specified for preexisting stratispool"
-msgstr "Для существующей группы томов не может быть указан список элементов."
+msgstr "Участники не могут быть указаны для существующего пула Stratis"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
@@ -546,7 +531,7 @@ msgid ""
 "size, --percent, or --hibernation."
 msgstr ""
 "Не указан размер логического тома. Используйте один из параметров: --"
-"useexisting, --noformat,  --size,  --percent или --hibernation."
+"useexisting, --noformat, --size, --percent или --hibernation."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
@@ -555,12 +540,12 @@ msgstr ""
 "Для команды repo должен быть задан один из параметров -%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Для команды url должен быть задан один из параметров -%(options_list)s."
+"Для команды timesource должен быть указан один из параметров -%(options_list)"
+"s."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -569,12 +554,9 @@ msgstr ""
 "Для команды url должен быть задан один из параметров -%(options_list)s."
 
 #: ../pykickstart/sections.py:942
-#, fuzzy, python-format
-#| msgid ""
-#| "One of --drives or --only-use must be specified for ignoredisk command."
+#, python-format
 msgid "One of --dir or --type must be specified for %certificate"
-msgstr ""
-"В команде ignoredisk необходимо указать аргумент --drives или --only-use."
+msgstr "Для %certificate должен быть указан один из параметров --dir или --type"
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
@@ -624,7 +606,7 @@ msgstr "Для команды %s ожидается один или ноль а�
 
 #: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Разрешены только --devnum или --devnum с --wwpn и --fcplun."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -633,13 +615,12 @@ msgstr ""
 "Только один из параметров %(options_list)s может быть задан для команды repo."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Только один из параметров %(options_list)s может быть задан для команды url."
+"Для команды timesource может быть указан только один из параметров %"
+"(options_list)s."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -676,29 +657,23 @@ msgstr ""
 "romount."
 
 #: ../pykickstart/commands/autopart.py:596
-#, fuzzy
-#| msgid ""
-#| "Only one of --nomount and --romount may be specified for rescue command."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr ""
-"В команде rescue аргументы --nomount и --romount являются взаимоисключающими."
+msgstr "Может быть указан только один из параметров --noswap и --hibernation."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
 #: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
+"Может быть указан только один из параметров --pbkdf-time и --pbkdf-"
+"iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"Аргументы --biospart и --source команды driverdisk являются "
-"взаимоисключающими."
+"Для команды bootloader может быть указан только один из параметров --sdboot "
+"и --extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -719,28 +694,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "Для параметра --bridgeopts требуется указать --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Вместе с параметром --bridgeopts необходимо определить --bridgeslaves"
+msgstr "Параметр --ipv4-dns-search требует указания --device"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "Вместе с параметром --bridgeopts необходимо определить --bridgeslaves"
+msgstr "Параметр --ipv4-ignore-auto-dns требует указания --device"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "Вместе с параметром --bridgeopts необходимо определить --bridgeslaves"
+msgstr "Параметр --ipv6-dns-search требует указания --device"
 
 #: ../pykickstart/commands/network.py:895
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "Вместе с параметром --bridgeopts необходимо определить --bridgeslaves"
+msgstr "Параметр --ipv6-ignore-auto-dns требует указания --device"
 
 #: ../pykickstart/commands/timezone.py:172
 #: ../pykickstart/commands/timezone.py:188
@@ -808,17 +775,19 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"Параметр %(option)s в строке %(lineno)s будет объявлен устаревшим в будущих "
+"выпусках. Измените ваш файл kickstart, заменив этот параметр на "
+"предпочтительный псевдоним %(new_option)s."
 
 #: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "Раздел %certificate пуст"
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "Команды %s и reqpart не могут использоваться одновременно"
+msgstr "Команды %s и %s не могут использоваться одновременно."
 
 #: ../pykickstart/commands/partition.py:652
 msgid ""
@@ -828,7 +797,7 @@ msgstr ""
 
 #: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
-msgstr ""
+msgstr "Команда enable module не принимает позиционные аргументы!"
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -848,7 +817,7 @@ msgstr "Следующие команды удалены в %s:"
 #: ../pykickstart/commands/autopart.py:715
 #, python-format
 msgid "The following options are not compatible with --type=stratis: %s"
-msgstr ""
+msgstr "Следующие параметры несовместимы с --type=stratis: %s"
 
 #: ../tools/ksverdiff.py:106
 #, python-format
@@ -893,6 +862,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"Параметр --isUtc будет объявлен устаревшим в будущих выпусках. Измените ваш "
+"файл kickstart, заменив этот параметр на предпочтительный псевдоним --utc."
 
 #: ../pykickstart/commands/timezone.py:446
 msgid ""
@@ -900,6 +871,9 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
+"Параметр --nontp будет объявлен устаревшим в будущих выпусках. Измените ваш "
+"файл kickstart, заменив этот параметр на вызов команды timesource --ntp-"
+"disable."
 
 #: ../pykickstart/commands/timezone.py:440
 msgid ""
@@ -907,16 +881,17 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
+"Параметр --ntpservers будет объявлен устаревшим в будущих выпусках. Измените "
+"ваш файл kickstart, заменив этот параметр на вызов команды timesource --ntp-"
+"server <имя_сервера>, по одному на каждый NTP-сервер."
 
 #: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
 msgstr "Команда realm 'join' должна быть указана только один раз"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "Kickstart command %s does not take any arguments"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Команда %s не принимает аргументов"
+msgstr "Команда syspurpose не принимает позиционные аргументы!"
 
 #. return immediately because bad version is fatal for all files
 #: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
@@ -1080,6 +1055,8 @@ msgstr "останов после первой ошибки или предуп�
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase может быть указан только для зашифрованных устройств LUKSv2 HW-"
+"OPAL"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
@@ -1100,16 +1077,12 @@ msgid "show this help message and exit"
 msgstr "показать эту справку и выйти"
 
 #: ../pykickstart/commands/stratispool.py:142
-#, fuzzy
-#| msgid "btrfs must be given a list of partitions"
 msgid "stratispool must be given a list of blockdevs"
-msgstr "Команде btrfs необходимо передать список разделов"
+msgstr "пулу Stratis должен быть передан список блочных устройств"
 
 #: ../pykickstart/commands/stratispool.py:139
-#, fuzzy
-#| msgid "volgroup must be given a VG name"
 msgid "stratispool must be given a pool name"
-msgstr "Команде volgroup необходимо передать имя группы томов"
+msgstr "пулу Stratis должно быть задано имя"
 
 #: ../tools/ksshell.py:155
 msgid ""
