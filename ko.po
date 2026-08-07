@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 09:43-0700\n"
-"PO-Revision-Date: 2026-05-22 06:01+0000\n"
+"PO-Revision-Date: 2026-08-07 21:17+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -73,10 +73,8 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default 와 --nocore 는 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/stratisfs.py:147
-#, fuzzy
-#| msgid "'--mkfsoptions' requires --reformat"
 msgid "--maxsize requires --grow"
-msgstr "'--mkfsoptions' 는 --reformat 이 필요합니다"
+msgstr "--maxsize 는 --grow 부분이 필요합니다"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
@@ -94,10 +92,8 @@ msgstr ""
 "--noformat 또는 --useexisting 를 사용하는 --mkfsoptions 는 효과가 없습니다."
 
 #: ../pykickstart/commands/stratispool.py:147
-#, fuzzy
-#| msgid "--resize can only be used in conjunction with --onpart"
 msgid "--passphrase can only be used with --encrypted"
-msgstr "--resize 는 --onpart 와 함께만 사용해야 합니다"
+msgstr "--passphrase 는 --encrypted 와 함께만 사용해야 합니다"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -191,22 +187,18 @@ msgid "A single argument is expected for the %s command"
 msgstr "%s 명령에는 단일 인수가 예상됩니다"
 
 #: ../pykickstart/commands/stratisfs.py:151
-#, fuzzy, python-format
-#| msgid ""
-#| "A logical volume with the name %(logical_volume_name)s has already been "
-#| "defined in volume group %(volume_group)s."
+#, python-format
 msgid ""
 "A stratisfs with the name %(stratisfs_name)s has already been defined in "
 "pool %(pool_name)s."
 msgstr ""
-"이름이 있는 논리 볼륨 %(logical_volume_name)s은 볼륨 그룹 %(volume_group)s에 "
-"이미 정의되어 있습니다."
+"이름 %(stratisfs_name)s 인 stratisfs는 풀 %(pool_name)s 에서 이미 정의되어 "
+"있습니다."
 
 #: ../pykickstart/commands/stratispool.py:156
-#, fuzzy, python-format
-#| msgid "A repo with the name %s has already been defined."
+#, python-format
 msgid "A stratispool with the name %s has already been defined."
-msgstr "이름 %s이 있는 저장소는 이미 정의되었습니다."
+msgstr "이름 %s 인 stratispool은 이미 정의되었습니다."
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -509,10 +501,8 @@ msgid "Members may not be specified for preexisting RAID device"
 msgstr "기존의 레이드 장치에 대해 구성원을 지정 할 수 없습니다"
 
 #: ../pykickstart/commands/stratispool.py:144
-#, fuzzy
-#| msgid "Members may not be specified for preexisting volgroup"
 msgid "Members may not be specified for preexisting stratispool"
-msgstr "멤버는 기존의 볼륨그룹을 위하여 지정 될 수 없습니다"
+msgstr "구성 요소는 기존 stratispool을 위해 지정 될 수 없습니다"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
@@ -811,7 +801,7 @@ msgstr "다음 명령은 %s에서 제거되었습니다:"
 #: ../pykickstart/commands/autopart.py:715
 #, python-format
 msgid "The following options are not compatible with --type=stratis: %s"
-msgstr ""
+msgstr "다음 추가 부분은 --type=stratis: %s 와 호환되지 않습니다"
 
 #: ../tools/ksverdiff.py:106
 #, python-format
@@ -1063,16 +1053,12 @@ msgid "show this help message and exit"
 msgstr "도움말 보기 및 종료"
 
 #: ../pykickstart/commands/stratispool.py:142
-#, fuzzy
-#| msgid "btrfs must be given a list of partitions"
 msgid "stratispool must be given a list of blockdevs"
-msgstr "btrfs에는 파티션 목록이 제공되어야 합니다"
+msgstr "stratispool은 blockdevs의 목록이 제공되어야 합니다"
 
 #: ../pykickstart/commands/stratispool.py:139
-#, fuzzy
-#| msgid "volgroup must be given a VG name"
 msgid "stratispool must be given a pool name"
-msgstr "volgroup 은 VG 이름이 지정되어야 합니다"
+msgstr "stratispool은 pool 이름이 제공되어야 합니다"
 
 #: ../tools/ksshell.py:155
 msgid ""
