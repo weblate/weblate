@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 09:43-0700\n"
-"PO-Revision-Date: 2026-05-26 10:01+0000\n"
+"PO-Revision-Date: 2026-08-13 16:17+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -77,10 +77,8 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default och --nocore kan inte användas tillsammans"
 
 #: ../pykickstart/commands/stratisfs.py:147
-#, fuzzy
-#| msgid "'--mkfsoptions' requires --reformat"
 msgid "--maxsize requires --grow"
-msgstr "”--mkfsoptions” kräver --reformat"
+msgstr "--maxsize kräver --grow"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
@@ -97,10 +95,8 @@ msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions med --noformat eller --useexisting har ingen effekt."
 
 #: ../pykickstart/commands/stratispool.py:147
-#, fuzzy
-#| msgid "--resize can only be used in conjunction with --onpart"
 msgid "--passphrase can only be used with --encrypted"
-msgstr "--resize kan endast användas tillsammans med --onpart"
+msgstr "--passphrase kan endast användas med --encrypted"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -195,22 +191,18 @@ msgid "A single argument is expected for the %s command"
 msgstr "Ett ensamt argument förväntas för kommandot %s"
 
 #: ../pykickstart/commands/stratisfs.py:151
-#, fuzzy, python-format
-#| msgid ""
-#| "A logical volume with the name %(logical_volume_name)s has already been "
-#| "defined in volume group %(volume_group)s."
+#, python-format
 msgid ""
 "A stratisfs with the name %(stratisfs_name)s has already been defined in "
 "pool %(pool_name)s."
 msgstr ""
-"En logisk volym med namnet %(logical_volume_name)s har redan definierats i "
-"volymgruppen %(volume_group)s."
+"Ett stratisfs med namnet %(stratisfs_name)s har redan definierats i poolen %"
+"(pool_name)s."
 
 #: ../pykickstart/commands/stratispool.py:156
-#, fuzzy, python-format
-#| msgid "A repo with the name %s has already been defined."
+#, python-format
 msgid "A stratispool with the name %s has already been defined."
-msgstr "Ett förråd med namnet %s har redan definierats."
+msgstr "Ett stratispool med namnet %s har redan definierats."
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -520,10 +512,8 @@ msgid "Members may not be specified for preexisting RAID device"
 msgstr "Medlemmar kan inte anges för en befintlig RAID-enhet"
 
 #: ../pykickstart/commands/stratispool.py:144
-#, fuzzy
-#| msgid "Members may not be specified for preexisting volgroup"
 msgid "Members may not be specified for preexisting stratispool"
-msgstr "Medlemmar får inte anges för befintliga volymgrupper"
+msgstr "Medlemmar får inte anges för befintlig stratispool"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
@@ -818,7 +808,7 @@ msgstr "Följande kommandon togs bort i %s:"
 #: ../pykickstart/commands/autopart.py:715
 #, python-format
 msgid "The following options are not compatible with --type=stratis: %s"
-msgstr ""
+msgstr "Följande alternativ är inte kompatibla med --type=stratis:%s"
 
 #: ../tools/ksverdiff.py:106
 #, python-format
@@ -1073,16 +1063,12 @@ msgid "show this help message and exit"
 msgstr "visa denna hjälp och avsluta"
 
 #: ../pykickstart/commands/stratispool.py:142
-#, fuzzy
-#| msgid "btrfs must be given a list of partitions"
 msgid "stratispool must be given a list of blockdevs"
-msgstr "btrfs måste få en lista av partitioner"
+msgstr "stratispool måste få en lista av blockenheter"
 
 #: ../pykickstart/commands/stratispool.py:139
-#, fuzzy
-#| msgid "volgroup must be given a VG name"
 msgid "stratispool must be given a pool name"
-msgstr "volgroup måste ges ett VG-namn"
+msgstr "stratispool måste ges ett poolnamn"
 
 #: ../tools/ksshell.py:155
 msgid ""
