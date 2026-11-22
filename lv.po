@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-04 09:19-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-23 18:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel10-branch/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -24,85 +26,87 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Pārbauda kickstart failu %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
-msgstr ""
+msgstr "Komandai %(command)s nepieciešams viens arguments: %(argument)s"
 
 #: ../pykickstart/base.py:254
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s ir noņemts."
 
 #: ../pykickstart/commands/mount.py:163
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions' nepieciešams --reformat"
 
 #: ../pykickstart/commands/network.py:848
 #: ../pykickstart/commands/network.py:1121
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto=%s šim ierīces tipam netiek atbalstīts"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:329
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "--boot-drive pieņem tikai vienu argumentu"
 
 #: ../pykickstart/commands/logvol.py:635 ../pykickstart/commands/logvol.py:745
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "--chunksize un --metadatasize ir paredzēti tikai plānajiem pūliem"
 
 #: ../pykickstart/sections.py:794
 msgid "--default and --nobase cannot be used together"
-msgstr ""
+msgstr "--default un --nobase nevar izmantot kopā"
 
 #: ../pykickstart/sections.py:807
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "--default un --nocore nevar izmantot kopā"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "--mkfsoptions un --fsprofile nevar izmantot kopā."
 
 #: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
 #: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "--mkfsoptions ar --noformat neko nedara."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr ""
+msgstr "--mkfsoptions ar --noformat vai --useexisting neko nedara."
 
 #: ../pykickstart/commands/partition.py:603
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "--resize var izmantot tikai kopā ar --onpart"
 
 #: ../pykickstart/commands/logvol.py:679
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr ""
+msgstr "--resize var izmantot tikai kopā ar --useexisting"
 
 #: ../pykickstart/commands/logvol.py:682
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "--resize nepieciešams --size, lai norādītu jauno izmēru"
 
 #: ../pykickstart/commands/partition.py:606
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "--resize nepieciešams --size, lai norādītu jauno izmēru"
 
 #: ../pykickstart/commands/logvol.py:774
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--size un --percent nevar norādīt vienam un tam pašam logvol"
 
 #: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:736
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--thin un --thinpool nevar norādīt vienam un tam pašam logvol"
 
 #: ../pykickstart/commands/logvol.py:630 ../pykickstart/commands/logvol.py:740
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "--thin nepieciešams --poolname, lai norādītu pūla nosaukumu"
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -110,26 +114,27 @@ msgid ""
 "A DM RAID device with the name %(name)s and devices %(devices)s has already "
 "been defined."
 msgstr ""
+"DM RAID ierīce ar nosaukumu %(name)s un ierīcēm %(devices)s jau ir definēta."
 
 #: ../pykickstart/commands/fcoe.py:149
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "FCOE ierīce ar nosaukumu %s jau ir definēta."
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "RAID ierīce ar nosaukumu %s jau ir definēta."
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "btrfs sējums ar montēšanas punktu %s jau ir definēts."
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "Grupa ar nosaukumu %s jau ir definēta."
 
 #: ../pykickstart/commands/logvol.py:482
 #, python-format
@@ -137,139 +142,146 @@ msgid ""
 "A logical volume with the name %(logical_volume_name)s has already been "
 "defined in volume group %(volume_group)s."
 msgstr ""
+"Loģiskais sējums ar nosaukumu %(logical_volume_name)s jau ir definēts sējumu "
+"grupā %(volume_group)s."
 
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "Modulis ar nosaukumu %s jau ir definēts."
 
 #: ../pykickstart/commands/network.py:497
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "Tīkla ierīce ar nosaukumu %s jau ir definēta."
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Nodalījums ar montēšanas punktu %s jau ir definēts."
 
 #: ../pykickstart/commands/repo.py:294
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "Repozitorijs ar nosaukumu %s jau ir definēts."
 
 #: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:82
 #: ../pykickstart/commands/rootpw.py:139 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "Komandai %s tiek gaidīts viens arguments"
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "Lietotājs ar nosaukumu %s jau ir definēts."
 
 #: ../pykickstart/commands/volgroup.py:186
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "volgroup ar nosaukumu %s jau ir definēts."
 
 #: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "zfcp ar šo informāciju jau ir definēts."
 
 #: ../pykickstart/commands/nvdimm.py:154
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "Darbībai %(action)s jābūt iestatītam argumentam --namespace"
 
 #: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
+"Darbībai %(action)s jābūt iestatītam argumentam --namespace vai --blockdevs"
 
 #: ../pykickstart/commands/nvdimm.py:157
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
 msgstr ""
+"Darbībai %(action)s režīmā %(mode)s jābūt iestatītam argumentam --sectorsize"
 
 #: ../pykickstart/commands/logvol.py:836
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "Kešatmiņas pievienošana esošam loģiskajam sējumam netiek atbalstīta"
 
 #: ../pykickstart/commands/nvdimm.py:149
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "Darbība %(action)s ierīcēm %(blockdevs)s jau ir definēta."
 
 #: ../pykickstart/commands/nvdimm.py:146
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "Darbība %(action)s nosaukumvietai %(namespace)s jau ir definēta."
 
 #: ../pykickstart/commands/sshkey.py:123 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "ssh lietotājs ar nosaukumu %s jau ir definēts."
 
 #: ../pykickstart/commands/timezone.py:268
 #: ../pykickstart/commands/timezone.py:373
 #: ../pykickstart/commands/timezone.py:509
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr ""
+msgstr "Komandai %s tiek gaidīta vismaz viena opcija un/vai arguments"
 
 #: ../pykickstart/commands/network.py:766
 #: ../pykickstart/commands/network.py:1116
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
+"Nepareizs --bridgeopts formāts, tiek gaidītas ar ',' atdalītas opcijas "
+"atslēga=vērtība"
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:733
 #: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Btrfs failu sistēma netiek atbalstīta"
 
 #: ../pykickstart/commands/logvol.py:844
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
+msgstr "Kešatmiņai jānorāda (ātro) PV saraksts"
 
 #: ../pykickstart/commands/logvol.py:848
 msgid "Cache needs to have size specified"
-msgstr ""
+msgstr "Kešatmiņai jānorāda izmērs"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr ""
+msgstr "--port nevar norādīt bez --host."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
+"Ierīce „%(device)s” jau tiek izmantota vairākceļu ierīcē „%(multipathdev)s”"
 
 #: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Tukša virkne nav derīga aktivizācijas atslēga."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:80 ../pykickstart/load.py:83
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr ""
+msgstr "Kļūda, piekļūstot URL „%s”"
 
 #: ../pykickstart/load.py:104
 #, python-format
 msgid "Error copying file: %s"
-msgstr ""
+msgstr "Kļūda, kopējot failu: %s"
 
 #: ../pykickstart/load.py:94
 #, python-format
 msgid "Error opening file: %s"
-msgstr ""
+msgstr "Kļūda, atverot failu: %s"
 
 #: ../tools/ksvalidator.py:108
 #, python-format
@@ -277,31 +289,33 @@ msgid ""
 "Error reading %(filename)s:\n"
 "%(version)s"
 msgstr ""
+"Kļūda, nolasot %(filename)s:\n"
+"%(version)s"
 
 #: ../pykickstart/load.py:78
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr ""
+msgstr "Kļūda, droši piekļūstot URL „%s”"
 
 #: ../pykickstart/load.py:65
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr ""
+msgstr "Kļūda, rakstot failu „%s”:"
 
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Neizdevās atvērt izvades failu „%(filename)s” : %(error_msg)s"
 
 #: ../tools/ksflatten.py:57
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Neizdevās parsēt kickstart failu „%(filename)s” : %(error_msg)s"
 
 #: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Neizdevās nolasīt kickstart failu „%(filename)s” : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:130
 #, python-format
@@ -309,28 +323,30 @@ msgid ""
 "File uses a deprecated option or command.\n"
 "%s"
 msgstr ""
+"Fails izmanto novecojušu opciju vai komandu.\n"
+"%s"
 
 #: ../tools/ksvalidator.py:139
 #, python-format
 msgid "General error in input file:  %s"
-msgstr ""
+msgstr "Vispārēja kļūda ievades failā:  %s"
 
 #: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
-msgstr ""
+msgstr "Vispārēja kickstart kļūda ievades failā"
 
 #: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr ""
+msgstr "Grupai nevar norādīt gan --nodefaults, gan --optional"
 
 #: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
-msgstr ""
+msgstr "Ja network --interfacename satur '.', tam jāseko derīgam vlan ID."
 
 #: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
-msgstr ""
+msgstr "Ja network --interfacename sākas ar 'vlan', tam jāseko derīgam vlan ID."
 
 #: ../pykickstart/base.py:222
 #, python-format
@@ -340,6 +356,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
+"Tiek ignorēta novecojusi komanda %(lineno)s. rindā:  komanda %(cmd)s ir "
+"novecojusi un vairs neko nedara.  Tā var tikt noņemta nākamajos laidienos, "
+"un tad kickstart izraisīs fatālu kļūdu.  Lūdzu, izmainiet kickstart failu, "
+"lai noņemtu šo komandu."
 
 #: ../pykickstart/options.py:202
 #, python-format
@@ -349,6 +369,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
+"Tiek ignorēta novecojusi opcija %(lineno)s. rindā: opcija %(option)s ir "
+"novecojusi un vairs neko nedara. Tā var tikt noņemta nākamajos laidienos, un "
+"tad kickstart izraisīs fatālu kļūdu. Lūdzu, izmainiet kickstart failu, lai "
+"noņemtu šo opciju."
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -357,276 +381,288 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
+"Tiek ignorēta novecojusi opcija %s. rindā:  komanda zerombr vairs nepieņem "
+"nekādas opcijas.  Nākamajos laidienos tas izraisīs fatālu kickstart kļūdu.  "
+"Lūdzu, izmainiet kickstart failu, lai noņemtu visas opcijas."
 
 #: ../pykickstart/parser.py:86
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr ""
+msgstr "Neatļauts URL %%ksappend: %s"
 
 #: ../tools/ksshell.py:225
 #, python-format
 msgid "Internal command %s not recognized."
-msgstr ""
+msgstr "Iekšējā komanda %s nav atpazīta."
 
 #: ../pykickstart/commands/autopart.py:252
 #, python-format
 msgid "Invalid autopart type: %s"
-msgstr ""
+msgstr "Nederīgs autopart tips: %s"
 
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
 msgid "Invalid btrfs level: %s"
-msgstr ""
+msgstr "Nederīgs btrfs līmenis: %s"
 
 #: ../pykickstart/commands/logvol.py:852
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "Norādīts nederīgs kešatmiņas režīms: %s"
 
 #: ../pykickstart/commands/mount.py:160
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "Norādīts nederīgs montēšanas punkts „%s”"
 
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr ""
+msgstr "Nederīgs --when= argumenta parametrs: %s"
 
 #: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
-msgstr ""
+msgstr "Nederīgs raid līmenis: %s"
 
 #: ../pykickstart/commands/realm.py:62
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "Nederīgi realm argumenti: %s"
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
 msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
-msgstr ""
+msgstr "Kickstart komanda %(command)s nepieņem tukšu parametru %(parameter)s"
 
 #: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Kickstart komanda %s nepieņem nekādus argumentus"
 
 #: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "Kickstart komanda %s pieņem tikai vienu argumentu"
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "Kickstart komandai %s nepieciešams viens arguments"
 
 #: ../pykickstart/commands/displaymode.py:110
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr ""
+msgstr "Kickstart komanda cmdline neatbalsta parametru --non-interactive"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "Kickstart komanda eula gaida opciju --agreed"
 
 #: ../tools/ksflatten.py:35
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "Kickstart versija, ko izmantot konfigurācijas interpretēšanai"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "Iepriekš eksistējošai RAID ierīcei nevar norādīt dalībniekus"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "Iepriekš eksistējošam volgroup nevar norādīt dalībniekus"
 
 #: ../pykickstart/commands/repo.py:342
 msgid "Method must be a url to be added to the repo list."
-msgstr ""
+msgstr "Lai pievienotu repozitoriju sarakstam, metodei jābūt url."
 
 #: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "Trūkst realm komandas argumentu"
 
 #: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "Jānorāda saplacināmā konfigurācija"
 
 #: ../pykickstart/commands/logvol.py:749
 msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
+"Loģiskajam sējumam nav norādīts izmērs. Izmantojiet vienu no --"
+"useexisting, --noformat, --size, --percent vai --hibernation."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
 msgid "One of -%(options_list)s options must be specified for repo command."
-msgstr ""
+msgstr "Komandai repo jānorāda viena no opcijām -%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:136
 #, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr ""
+msgstr "Komandai timesource jānorāda viena no opcijām -%(options_list)s."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
 msgid "One of -%(options_list)s options must be specified for url command."
-msgstr ""
+msgstr "Komandai url jānorāda viena no opcijām -%(options_list)s."
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
-msgstr ""
+msgstr "Jānorāda viens no --disabled vai --enabled."
 
 #: ../pykickstart/commands/ignoredisk.py:131
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
+"Komandai ignoredisk jānorāda viens no --drives, --only-use vai --interactive."
 
 #: ../pykickstart/commands/ignoredisk.py:88
 msgid "One of --drives or --only-use must be specified for ignoredisk command."
-msgstr ""
+msgstr "Komandai ignoredisk jānorāda viens no --drives vai --only-use."
 
 #: ../pykickstart/commands/driverdisk.py:141
 msgid "One of --source or partition must be specified for driverdisk command."
-msgstr ""
+msgstr "Komandai driverdisk jānorāda viens no --source vai nodalījums."
 
 #: ../pykickstart/commands/driverdisk.py:186
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
+"Komandai driverdisk jānorāda viens no --source, --biospart vai nodalījums."
 
 #: ../pykickstart/commands/keyboard.py:169
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
+"Komandai keyboard tiek gaidīta viena no opcijām --xlayouts, --vckeymap ar "
+"vērtību(-ām) vai arguments"
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
-msgstr ""
+msgstr "Jānorāda viena no opcijām biospart vai partition."
 
 #: ../pykickstart/commands/timezone.py:281
 #: ../pykickstart/commands/timezone.py:386
 #: ../pykickstart/commands/timezone.py:522
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr ""
+msgstr "Komandai %s tiek gaidīts viens vai neviens arguments"
 
 #: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Atļauts tikai --devnum vai --devnum ar --wwpn un --fcplun."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
-msgstr ""
+msgstr "Komandai repo var norādīt tikai vienu no opcijām %(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:139
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
+"Komandai timesource var norādīt tikai vienu no opcijām %(options_list)s."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
-msgstr ""
+msgstr "Komandai url var norādīt tikai vienu no opcijām %(options_list)s."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
-msgstr ""
+msgstr "Komandai driverdisk var norādīt tikai vienu no --biospart un --source."
 
 #: ../pykickstart/commands/driverdisk.py:181
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
+"Komandai driverdisk var norādīt tikai vienu no --biospart un nodalījuma."
 
 #: ../pykickstart/commands/nvdimm.py:141
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
+"Var izmantot tikai vienu no ierīču specifikācijām --namespace un --blockdevs"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
-msgstr ""
+msgstr "Komandai rescue var norādīt tikai vienu no --nomount un --romount."
 
 #: ../pykickstart/commands/autopart.py:596
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr ""
+msgstr "Var norādīt tikai vienu no --noswap un --hibernation."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
 #: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
-msgstr ""
+msgstr "Var norādīt tikai vienu no --pbkdf-time un --pbkdf-iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
-msgstr ""
+msgstr "Komandai bootloader var norādīt tikai vienu no --sdboot un --extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
-msgstr ""
+msgstr "Komandai driverdisk var norādīt tikai vienu no --source un nodalījuma."
 
 #: ../pykickstart/commands/driverdisk.py:132
 #: ../pykickstart/commands/driverdisk.py:173
 msgid "Only one partition may be specified for driverdisk command."
-msgstr ""
+msgstr "Komandai driverdisk var norādīt tikai vienu nodalījumu."
 
 #: ../pykickstart/commands/network.py:760
 #: ../pykickstart/commands/network.py:1110
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr ""
+msgstr "Opcijai --bridgeopts jānorāda --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:886
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr ""
+msgstr "Opcijai --ipv4-dns-search jānorāda --device"
 
 #: ../pykickstart/commands/network.py:892
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr ""
+msgstr "Opcijai --ipv4-ignore-auto-dns jānorāda --device"
 
 #: ../pykickstart/commands/network.py:889
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr ""
+msgstr "Opcijai --ipv6-dns-search jānorāda --device"
 
 #: ../pykickstart/commands/network.py:895
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr ""
+msgstr "Opcijai --ipv6-ignore-auto-dns jānorāda --device"
 
 #: ../pykickstart/commands/timezone.py:172
 #: ../pykickstart/commands/timezone.py:188
 #: ../pykickstart/commands/timezone.py:285
 #: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr ""
+msgstr "Opcijas --nontp un --ntpservers ir savstarpēji izslēdzošas"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "%s nepieciešami nodalījumi"
 
 #: ../tools/ksflatten.py:33
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "Ceļš uz kickstart konfigurācijas failu"
 
 #: ../pykickstart/commands/logvol.py:753
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "Procentiem jābūt no 0 līdz 100."
 
 #. If we are ignoring unknown section errors, just create a new
 #. NullSection for the header we just saw.  Then nothing else
@@ -635,35 +671,35 @@ msgstr ""
 #: ../pykickstart/parser.py:802
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
-msgstr ""
+msgstr "%(lineno)s. rindā redzēta, iespējams, nezināma sadaļa: %(sectionName)s"
 
 #: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr ""
+msgstr "Sadaļa %s nebeidzas ar %%end."
 
 #: ../pykickstart/commands/snapshot.py:126
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "Jānorāda momentuzņēmuma parametrs „when”!"
 
 #: ../pykickstart/commands/snapshot.py:131
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr ""
+msgstr "Momentuzņēmuma avots %s jānorāda formā VG/LV!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr ""
+msgstr "Momentuzņēmuma parametram when jābūt vienai no šīm vērtībām: %s!"
 
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "Momentuzņēmums ar nosaukumu %s jau ir definēts!"
 
 #: ../pykickstart/commands/realm.py:65
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "Norādiet tikai vienu realm, kam pievienoties"
 
 #: ../pykickstart/sections.py:843
 #, python-format
@@ -672,61 +708,64 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"Opcija %(option)s %(lineno)s. rindā nākamajos laidienos kļūs novecojusi. "
+"Lūdzu, izmainiet kickstart failu, aizstājot šo opciju ar tās ieteicamo "
+"aizstājvārdu %(new_option)s."
 
 #: ../pykickstart/sections.py:925
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "Sadaļa %certificate ir tukša"
 
 #: ../pykickstart/base.py:449
 #, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr ""
+msgstr "Komandas %s un %s nevar izmantot vienlaikus."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr ""
+msgstr "Opciju --fstype=tmpfs nevar izmantot kopā ar --grow vai --maxsize"
 
 #: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
-msgstr ""
+msgstr "Moduļa iespējošanas komanda nepieņem pozicionālus argumentus!"
 
 #: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr ""
+msgstr "%s pievienotas šīs komandas:"
 
 #: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr ""
+msgstr "%s novecojušas šīs komandas:"
 
 #: ../tools/ksverdiff.py:73
 #, python-format
 msgid "The following commands were removed in %s:"
-msgstr ""
+msgstr "%s noņemtas šīs komandas:"
 
 #: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
+msgstr "%(version)s komandai %(command_name)s pievienotas šīs opcijas:"
 
 #: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
+msgstr "%(version)s komandai %(command_name)s novecojušas šīs opcijas:"
 
 #: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
+msgstr "%(version)s no komandas %(command_name)s noņemtas šīs opcijas:"
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -735,12 +774,17 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
+"Kickstart faila %(lineno)s. rindā radās šāda problēma:\n"
+"\n"
+"%(msg)s\n"
 
 #: ../pykickstart/commands/timezone.py:422
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"Opcija --isUtc nākamajos laidienos kļūs novecojusi. Lūdzu, izmainiet "
+"kickstart failu, aizstājot šo opciju ar tās ieteicamo aizstājvārdu --utc."
 
 #: ../pykickstart/commands/timezone.py:446
 msgid ""
@@ -748,6 +792,9 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
+"Opcija --nontp nākamajos laidienos kļūs novecojusi. Lūdzu, izmainiet "
+"kickstart failu, aizstājot šo opciju ar komandas timesource --ntp-disable "
+"izsaukumu."
 
 #: ../pykickstart/commands/timezone.py:440
 msgid ""
@@ -755,45 +802,48 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
+"Opcija --ntpservers nākamajos laidienos kļūs novecojusi. Lūdzu, izmainiet "
+"kickstart failu, aizstājot šo opciju ar komandas timesource --ntp-server "
+"<servera resursdatora nosaukums> izsaukumu, pa vienam katram NTP serverim."
 
 #: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
-msgstr ""
+msgstr "realm komandu 'join' drīkst norādīt tikai vienu reizi"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr ""
+msgstr "Komanda syspurpose nepieņem pozicionālus argumentus!"
 
 #. return immediately because bad version is fatal for all files
 #: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
 #: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr ""
+msgstr "Versija %s pykickstart netiek atbalstīta"
 
 #: ../pykickstart/commands/network.py:1029
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
-msgstr ""
+msgstr "vlan ID ir ārpus vlan ID diapazona %(minimum)d–%(maximum)d."
 
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr ""
+msgstr "Nolasot kickstart faila %s. rindu, radās problēma"
 
 #: ../pykickstart/commands/logvol.py:840
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "Plānos sējumus nevar kešot"
 
 #: ../pykickstart/parser.py:91
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
-msgstr ""
+msgstr "Neizdodas atvērt %%ksappend failu: %s"
 
 #: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr ""
+msgstr "Neizdodas atvērt ievades kickstart failu: %s"
 
 #: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
 #: ../pykickstart/commands/device.py:147
@@ -811,32 +861,32 @@ msgstr ""
 #: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr ""
+msgstr "Negaidīti argumenti komandai %(command)s: %(options)s"
 
 #: ../pykickstart/commands/nvdimm.py:131
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
-msgstr ""
+msgstr "Negaidīti argumenti komandai nvdimm: %(arguments)s"
 
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Nezināma komanda %s"
 
 #: ../pykickstart/base.py:410
 #, python-format
 msgid "Unknown command: %s"
-msgstr ""
+msgstr "Nezināma komanda: %s"
 
 #: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr ""
+msgstr "Nezināma kickstart sadaļa: %s"
 
 #: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "Neatbalstīta realm komanda „%s”"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:146 ../pykickstart/version.py:155
@@ -844,7 +894,7 @@ msgstr ""
 #: ../pykickstart/version.py:227
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr ""
+msgstr "Norādīta neatbalstīta versija: %s"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:180
@@ -853,97 +903,103 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"Brīdinājums:  apstrādājot ievades failu, radās šāda kļūda:\n"
+"%s\n"
 
 #: ../pykickstart/commands/network.py:1011
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
 msgstr ""
+"Izmantojot saskarnes nosaukuma pierakstu <priedēklis>.<vlan id>, "
+"<priedēklis> nedrīkst būt 'vlan'."
 
 #: ../tools/ksflatten.py:37
 msgid "Write flattened config to OUTPUT"
-msgstr ""
+msgstr "Ierakstīt saplacināto konfigurāciju IZVADĒ"
 
 #: ../tools/ksverdiff.py:59
 msgid "You must specify two syntax versions."
-msgstr ""
+msgstr "Jānorāda divas sintakses versijas."
 
 #: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr ""
+msgstr "pamatfails kickstart datu sākotnējai aizpildīšanai (neobligāts)"
 
 #: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
+msgstr "autopart --fstype nevar izmantot ar --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
+"autopart --fstype=btrfs nav derīgs fstype, tā vietā izmantojiet --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:541
 #: ../pykickstart/commands/autopart.py:611
 msgid "autopart --type=btrfs is not supported"
-msgstr ""
+msgstr "autopart --type=btrfs netiek atbalstīts"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "btrfs jānorāda nodalījumu saraksts"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "btrfs jānorāda montēšanas punkts"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr ""
+msgstr "btrfs apakšsējumam jānorāda vecākais sējums"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "btrfs apakšsējumam nepieciešams nosaukums"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
-msgstr ""
+msgstr "komandai device nepieciešami divi argumenti: moduļa tips un nosaukums"
 
 #: ../tools/ksvalidator.py:54
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "faila nosaukums vai URL, no kā lasīt"
 
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
-msgstr ""
+msgstr "apstāties pēc pirmās kļūdas vai brīdinājuma"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr ""
+msgstr "nederīga Būla vērtība: %r"
 
 #: ../tools/ksvalidator.py:62 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
-msgstr ""
+msgstr "uzskaitīt pieejamās kickstart sintakses versijas"
 
 #: ../tools/ksvalidator.py:59
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr ""
+msgstr "parsēt iekļautos failus, kad redzams %%include"
 
 #: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
-msgstr ""
+msgstr "parādīt šo palīdzības ziņojumu un iziet"
 
 #: ../tools/ksshell.py:155
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
+"vieta, kur ierakstīt pabeigto kickstart failu, vai stdout, ja nav norādīta"
 
 #: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
-msgstr ""
+msgstr "kickstart sintakses versija, pret kuru validēt"
 
 #: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a VG name"
-msgstr ""
+msgstr "volgroup jānorāda VG nosaukums"
 
 #: ../pykickstart/commands/volgroup.py:176
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "volgroup jānorāda nodalījumu saraksts"
